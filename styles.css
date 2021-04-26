@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* 
+Open Font License: OFL.txt located in project folder
+*/
+
+/* html + body */
+html {
+    background-color: black; /* M2LO15 */
+    color: rgb(175, 175, 175);
+    
+}
+@font-face { /* M2LO13 */
+    font-family: Anton;
+    src: url('Anton-Regular.ttf') format('trutype');
+}
+h1 {
+    letter-spacing: 0.5px;
+}
+h2 {
+    letter-spacing: 0.5px;
+}
+header h1 {
+    text-align: center;
+}
+/* articles */
+article {
+    font-family: Anton, sans-serif;
+}
+
+/* aside + blockquote */
+aside {
+    font-family: Anton, sans-serif;
+}
+
+/* navigation */
+ul#list li {    /* M2LO5 M2LO6*/
+    display: inline;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    font-family: Anton, sans-serif;
+}
+nav>ul>li>a:link, nav>ul>li>a:visited { /* M2LO12 */
+    color: white;
+    text-decoration: none;  /* M2LO13 */
+    
+}
+nav>ul>li>a:hover, nav>ul>li>a:active {
+    color: ivory;
+    background-color: rgb(160, 160, 160);
+}
+/* sections */
+
+
+/* footer */
