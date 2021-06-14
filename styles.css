@@ -59,6 +59,12 @@ header h1 {
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
+#form {
+    width: 25%;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
 
 
 /* articles */
@@ -119,6 +125,7 @@ col#loadout {
 
 table tr, th, td {
     border: 2px solid gray;
+    
 }
 
 tr {
